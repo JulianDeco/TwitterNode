@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm install && npm run build", 
+    "build": "npm install & npm run build", 
     "start": "node src/index.js"
   },
   "author": "",
@@ -27,5 +27,8 @@
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.18.0 <20.9.0"
   }
 }
