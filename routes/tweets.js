@@ -95,7 +95,6 @@ function saveTweetAndRedirect(path) {
         tweet.imagePath = req.session.imagePath;
 
         try {
-            // Save to the DB
             tweet = await tweet.save();
             res.redirect(`/${tweet.slug}`);
         } catch (e) {
