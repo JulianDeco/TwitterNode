@@ -1,0 +1,185 @@
+body{
+    background-color: #fff;
+    max-width: 99vw;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Estilos para el contenedor de tweets */
+.tweet {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el contenido del tweet */
+.tweet-content {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Estilos para los enlaces en el tweet */
+.tweet a {
+    color: #1da1f2;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Estilos para los botones en el tweet */
+.tweet button {
+    margin-top: 5px;
+}
+
+/* Estilos para los íconos en los botones */
+.tweet button svg {
+    margin-right: 5px;
+}
+
+.contenedor{
+    height: 5000px;
+}
+
+.menu-items {
+    height: calc(100vh - 70px); /* Resta el espacio ocupado por el encabezado */
+    position: relative;
+    max-width: fit-content;
+    /* border-right: 3px solid #000000; */
+  }
+  
+
+/* .items{
+    margin-left: auto;
+} */
+
+.menu-item{
+    max-height: 50px;
+    max-width: 206px;
+}
+
+.svg-item{
+    max-width: 26px;
+    max-height: 26px;
+}
+
+.menu-item:hover{
+    border: 1px solid #484646;
+    border-radius: 16px;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.menu-item div{
+    display: flex;
+    justify-content: center;
+}
+
+.twitter-icon{
+    max-width: 50px;
+    max-height: 70px;
+}
+
+.twitter-icon:hover{
+    cursor: pointer;
+}
+
+.profile-section {
+    position: relative; /* Establece el contenedor como posición relativa */
+    display: flex;
+    justify-content: center;
+  }
+  
+.profile-section .row {
+
+
+
+    margin: auto;
+    position: fixed; /* Cambia la posición a absoluta */
+    bottom: 0;
+    margin-bottom: 10px;
+
+  }
+
+.profile-section .row:hover{
+    border: 1px solid #716f6f;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.img-profile{
+    margin: auto;
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 16px;
+}
+
+.nombre{
+    white-space: nowrap; /* Evita el retorno de línea */
+    overflow: hidden; /* Oculta el contenido que excede el ancho */
+    text-overflow: ellipsis; /* Muestra puntos (...) al final del texto truncado */
+  
+}
+
+.icono-tweet{
+    height: 20px;
+    width: 20px;
+    border-radius: 25px; /* Esto crea un fondo redondo */
+    transition: background-color 0.3s;
+}
+
+.icono-tweet:hover{
+    background-color: grey;
+}
+
+.input-tweet{
+    background: none;
+    border: none;
+    outline: none; /* Esto elimina el resaltado al hacer clic en el input */
+    padding: 10px;
+}
+
+.inicio:hover{
+    cursor: pointer;
+}
+
+.siguiendo:hover{
+    background-color: rgb(163, 162, 162);
+}
+
+.para-ti:hover{
+    background-color: rgb(163, 162, 162);
+}
+
+.cursor-pointer:hover{
+    cursor: pointer;
+}
+
+.mostrar-tweets:hover{
+    background-color: rgb(163, 162, 162)
+}
+
+.tweet-image{
+    overflow: hidden; /* Esto oculta cualquier contenido que se desborde */
+}
+
+.tweet-image img {
+    max-width: 100%; /* La imagen no será más ancha que el contenedor */
+    height: auto; /* La altura se ajustará proporcionalmente */
+    display: block; /* Elimina el espacio adicional debajo de la imagen */
+}
+
+.column3{
+    border-radius: 25px 25px 25px 25px;
+}
+
+.pagination{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
